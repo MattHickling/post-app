@@ -1,0 +1,111 @@
+body {
+    background-color: #e58531; 
+    color: #333333; 
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #008080;
+  }
+  
+  a {
+    color: #4CAF50; 
+  }
+  
+
+  button {
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background-color: #3e8e41; 
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: #3e8e41; 
+  }
+  
+  /* styles for cool-button class */
+.cool-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  /* styles for form */
+  form {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  /* styles for text input */
+  input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  /* styles for recent messages */
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  li strong {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+  }
+  
+  .post-title{
+    font-size: 1.5rem;
+    color: aliceblue;
+  }
+
+  .view{
+    color: rgb(243, 229, 43);
+  }
