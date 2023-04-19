@@ -9,9 +9,9 @@
 
 <form method="POST" action="/create">
     @csrf
-    <label for="title">Title:</label><br>
+    <label id="title">Title:</label><br>
     <input type="text" id="title" name="title"><br>
-    <label for="content">Content:</label><br>
+    <label id="content">Content:</label><br>
     <textarea id="content" name="content"></textarea><br><br>
     <input type="submit" value="Submit" class="cool-button">
 
