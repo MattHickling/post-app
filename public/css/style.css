@@ -69,11 +69,11 @@
   }
 
   input#title{
-    width: 90%;
+    width: 95%;
   }
 
   textarea#content{
-    width: 90%;
+    width: 95%;
   }
   
   input[type="text"], textarea {
